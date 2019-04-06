@@ -40,7 +40,7 @@ consume("Mary", "Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
 // Explanation:
-/**
+/*
  * nestedFunction() can access 'internal' due to the lexical scoping, which means that variables inside
  * myFunction() can be called in inner methods of it. Lexical scoping sets the range for what can be reached.
  * However, variables created inside an inner function are not accessible outside its own scope. As I show below,
